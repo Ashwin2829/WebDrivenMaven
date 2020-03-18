@@ -24,6 +24,7 @@ public class LoginTest {
         driver.findElement(By.cssSelector(".RveJvd.snByac")).click();
         Thread.sleep(3000);
         driver.findElement(By.cssSelector("input[type='password']")).sendKeys("sdf");
+        driver.findElement(By.xpath("//span[text()='Next']")).click();
         
 	}
 	
